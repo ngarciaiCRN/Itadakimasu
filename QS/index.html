@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <meta author="Nerea y Marc">
+    <title>¿Quienes somos?</title>
+    <link rel="stylesheet" href="estils.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="only screen and (max-width: 1067px)" href="mobil.css">
+    <link rel="stylesheet" media="only screen and (min-width: 1068px)" href="pc.css">
+    <script src="../jquery-3.6.0.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+<header>
+
+
+    <div id="cabecera">
+<a id="floater" href="../index.html"><img id="logo" margin-top="10px" height="70px" width="160px" src="../img/itadakimasu.png"/></a>
+
+      <ul class="navigation2">
+          <ul><li><a href="../QS/index.html">¿Quienes somos?</a></li>
+          <li><a href="#">Primeros platos</a></li>
+          <li><a href="#">Entrantes</a></li>
+          <li><a href="#">Tutoriales</a></li>
+          <li><a href="#">Libros</a></li>
+          </ul>
+          <div class="clear"></div></ul>
+
+
+
+      <ul class="navigation">
+          <li><a href="#">Menu</a>
+          <ul><li><a href="../QS/index.html">Quienes somos?</a></li>
+          <li><a href="#">Primeros platos</a></li>
+          <li><a href="#">Entrantes</a></li>
+          <li><a href="#">Tutoriales</a></li>
+          <li><a href="#">Libros</a></li>
+          </ul>
+          <div class="clear"></div></li></ul>
+    </div>
+
+
+
+</header>
+
+
+
+<footer>
+
+<div id="pie"></div>
+
+</footer>
+
+  </body>
+
+  <script>
+
+//jquery//
+  $(document).ready(function(){
+//controlador animación del menú hamburguesa//
+    $('.navigation li').hover(function () {
+
+    $('ul', this).fadeIn();
+},function () {
+    $('ul', this).fadeOut();
+});
+
+});
+
+//javascript//
+
+
+
+</script>
+</html>
