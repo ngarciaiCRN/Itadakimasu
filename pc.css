@@ -1,15 +1,15 @@
 @media only screen and (min-width:1068px){
 
-.navigation{
+#expandir{
   display: none;
-  transition: 1s;
 }
 
-.navigation2{
-  display: inline-grid;
-  margin-top: 30px;
-  transition: 1s;
-  float: right;
+#abrir-cerrar{
+  display: none;
+}
+
+.abrir-cerrar{
+  display: none;
 }
 
 #video{
@@ -30,6 +30,7 @@
 h6{
   width: 700px;
   line-height: 20px;
+  font-size: 20px;
 }
 
 }
@@ -40,6 +41,23 @@ body{
   font-family: sans-serif;
   color: white;
   font-family: 'Teko', sans-serif;
+}
+
+label{
+  display: none;
+}
+
+a:active{
+  color: white;
+}
+
+a:visited{
+  color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
 
 
@@ -70,7 +88,7 @@ body{
   padding:0;
   list-style:none;
   text-align: center;
-  display: none;
+  display: inline-grid;
   border-style: solid;
   }
 
@@ -79,6 +97,8 @@ body{
     width:200px;
     position:relative;
     margin: 10px;
+    font-size: 25px;
+    margin-right: 10px;
     }
 
     .navigation2 li a:hover{
