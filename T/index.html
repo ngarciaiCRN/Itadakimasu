@@ -22,10 +22,10 @@
 <a id="floater" href="../index.html"><img id="logo" margin-top="10px" height="70px" width="160px" src="../img/itadakimasu.png"/></a>
 
       <ul class="navigation2">
-          <ul><li><a href="index.html">Qui som?</a></li>
+          <ul><li><a href="../QS/index.html">Qui som?</a></li>
           <li><a href="../PP/index.html">Primers plats</a></li>
           <li><a href="../E/index.html">Entrants</a></li>
-          <li><a href="../T/index.html">Tutorials</a></li>
+          <li><a href="index.html">Tutorials</a></li>
           <li><a href="../L/index.html">Llibres</a></li>
           </ul>
           <div class="clear"></div></ul>
@@ -35,16 +35,48 @@
           <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
           <label for="abrir-cerrar" class="toggle-button">
     <span  class="cerrar" title="Cerrar">
-    <ul id="expandir"><li><a href="index.html">Qui som?</a></li>
+    <ul id="expandir"><li><a href="../QS/index.html">Qui som?</a></li>
     <li><a href="../PP/index.html">Primers plats</a></li>
     <li><a href="../E/index.html">Entrants</a></li>
-    <li><a href="../T/index.html">Tutorials</a></li>
+    <li><a href="index.html">Tutorials</a></li>
     <li><a href="../L/index.html">Llibres</a></li>
     </ul></span>
     <span class="abrir" title="Abrir"></span>
   </label>
 </header>
 
+
+<div class="cajas">
+
+  <iframe class="videos" width="250" height="150" src="https://www.youtube.com/embed/YxJCJ0NAQT0" title="RecetaSushi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h6 class="texto">Receta Arroz de Sushi</h6>
+
+</div>
+
+<div class="cajas">
+
+  <iframe class="videos" width="250" height="150" src="https://www.youtube.com/embed/EZaV8GFI81Y" title="RecetaPollo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h6 class="texto">Receta Pollo Teriyaki</h6>
+
+</div>
+
+<div class="cajas">
+
+  <iframe class="videos" width="250" height="150" src="https://www.youtube.com/embed/DTgBEFUAxGA" title="RecetaSushi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h6 class="texto">Receta Sushi</h6>
+
+</div>
+
+<div class="cajas">
+
+  <iframe class="videos" width="250" height="150" src="https://www.youtube.com/embed/O88bNIXI-yc" title="RecetaTakoChan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <h6 class="texto">Receta Tako-Chan</h6>
+
+</div>
 
 
 <footer>
@@ -68,7 +100,9 @@ $(document).ready(function(){
 
       $("#cabecera").slideDown("slow");
       $("#pie").fadeIn("slow");
-      $("#texto").delay("slow").slideDown("slow");
+      $(".videos").slideDown("slow");
+      $(".cajas").delay("slow").delay("slow").slideDown("slow");
+      $(".texto").delay("slow").slideDown("slow");
       $(".navigation2 li").slideDown("slow");
 
 

@@ -15,7 +15,10 @@ body{
 }
 
 h6{
-  font-size: 15px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
 }
 
 a:active{
@@ -47,11 +50,6 @@ ul{
   display: none;
 }
 
-#texto{
-  display: none;
-  font-family: 'Cairo', sans-serif;
-}
-
 #pie{
   border-style: solid;
   border-color: #FFFF black black black;
@@ -69,6 +67,25 @@ ul{
   float: left;
 }
 
+#tutos{
+  width: 100%;
+}
+
+.videos{
+  display: none;
+}
+
+.cajas{
+  box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+  display: none;
+  text-align: center;
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+}
+
+.texto{
+  display: none;
+  font-family: 'Cairo', sans-serif;
+}
 
   .navigation2{
     margin:0;
