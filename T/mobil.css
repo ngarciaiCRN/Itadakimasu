@@ -80,6 +80,10 @@ ul{
   display: none;
   text-align: center;
   text-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  height: 160px;
+  width: 260px;
 }
 
 .texto{
