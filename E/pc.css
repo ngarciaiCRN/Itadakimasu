@@ -58,6 +58,13 @@ a{
   text-decoration: none;
 }
 
+h1{
+  text-align: center;
+  font-size: 60px;
+  padding-bottom: 20px;
+  color: white;
+  text-shadow: 0 0 10px red, 0 0 40px red, 0 0 60px red;
+}
 
 #cabecera{
   border-style: solid;
@@ -84,6 +91,10 @@ a{
 
 #floater{
   float: left;
+}
+
+#titulos{
+  display: none;
 }
 
 .links{

@@ -45,7 +45,76 @@
   </label>
 </header>
 
+<center>
 
+<h1 id="titulos">Qui som?</h1>
+
+<div id="imagen"></div>
+<h2 class="texto">Som un parell d'aficionats que volem saber el veritable sabor que ens aporta el Japó.
+Aquest grup està compost per Marc Gibello i Nerea García.<br> Actualment residim a Barcelona, però gràcies a Itadakimasu, ens acompanyarà en un viatge de nous sabors i sensacions tradicionals. <br>
+Per a unir-te al nostre equip, pots contactar amb nosaltres atreveixes del formulari d'aquí a baix, o per missatge directe en Instagram.
+</h2>
+</center>
+
+<div class="contact_form">
+
+    <div class="formulario">
+      <h1>Formulari de contacte</h1>
+        <h3>Escriu-nos i ens posarem en contacte amb tu</h3>
+
+
+          <form action="Enviado/index.html" method="get">
+
+
+                <p>
+                  <label for="nombre" class="colocar_nombre">Nom
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escriu el teu nom">
+                </p>
+
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escriu el teu Email">
+                </p>
+
+                <p>
+                  <label for="telefone" class="colocar_telefono">Telèfon
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escriu el teu telèfon">
+                </p>
+
+                <p>
+                  <label for="website" class="colocar_website">Lloc web
+                  </label>
+                    <input type="url" name="introducir_website" id="website" placeholder="Escriu la URL del teu web">
+                </p>
+
+                <p>
+                  <label for="asunto" class="colocar_asunto">Assumpte
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escriu un assumpte">
+                </p>
+
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Missatge
+                    <span class="obligatorio">*</span>
+                  </label>
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deixa aquí el teu comentari..."></textarea>
+                                </p>
+
+                <button type="submit" href="" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * els camps són obligatoris. </span>
+                </p>
+
+          </form>
+    </div>
+  </div>
 
 <footer>
 
@@ -68,7 +137,10 @@ $(document).ready(function(){
 
       $("#cabecera").slideDown("slow");
       $("#pie").fadeIn("slow");
-      $("#texto").delay("slow").slideDown("slow");
+      $("#titulos").fadeIn("slow");
+      $(".texto").delay("slow").slideDown("slow");
+      $("#imagen").delay("slow").slideDown("slow");
+      $(".contact_form").delay("slow").delay("slow").slideDown("slow");
       $(".navigation2 li").slideDown("slow");
 
 
