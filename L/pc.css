@@ -97,6 +97,13 @@ h1{
   display: none;
 }
 
+#imagen{
+  margin-bottom: 70px;
+  height: 800px;
+  width: 75%;
+  display: none;
+}
+
 .navigation2{
   margin:0;
   padding:0;

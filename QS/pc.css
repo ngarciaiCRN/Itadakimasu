@@ -89,7 +89,9 @@ a{
 
 #imagen{
   margin-top: 50px;
-  background-color: lightsalmon;
+  background-image: url(../img/QS/nereamarc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50%;
   height: 600px;
   box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;

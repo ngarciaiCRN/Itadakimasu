@@ -81,6 +81,13 @@ ul{
   display: none;
 }
 
+#imagen{
+  margin-bottom: 70px;
+  height: 300px;
+  width: 100%;
+  display: none;
+}
+
   .navigation2{
     margin:0;
     padding:0;
